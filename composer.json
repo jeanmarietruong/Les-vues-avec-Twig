@@ -1,0 +1,12 @@
+{
+    "name": "jean-marie/composer",
+    "authors": [
+        {
+            "name": "Jean-Marie TRUONG",
+            "email": "jean-marie_truong@outlook.fr"
+        }
+    ],
+    "require": {
+        "ehime/hello-world": "^1.0"
+    }
+}
