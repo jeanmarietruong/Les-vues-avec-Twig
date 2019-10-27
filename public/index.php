@@ -2,11 +2,9 @@
 
 require '../vendor/autoload.php';
 
-use App\Wcs\Hello;
-use HelloWorld\SayHello;
+$products = ['product1', 'product2', 'product3', 'product4', 'product5'];
 
-$hello = new Hello();
+$loader = new Twig\Loader\FilesystemLoader(__DIR__.'/../src/View');
+$twig = new Twig\Environment($loader);
 
-echo $hello -> talk();
-echo '<br>';
-echo SayHello::world();
+echo $twig->render('index.html.twig', ['products' => $products]);

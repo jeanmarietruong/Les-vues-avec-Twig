@@ -1,5 +1,5 @@
 {
-    "name": "jean-marie/composer",
+    "name": "jeanmarie/twig",
     "authors": [
         {
             "name": "Jean-Marie TRUONG",
@@ -7,12 +7,6 @@
         }
     ],
     "require": {
-
-        "ehime/hello-world": "^1.0",
-
-    },
-    "autoload": {
-        "psr-4": {"app\\": "src/"}
+        "twig/twig": "^2.12"
     }
-
 }
